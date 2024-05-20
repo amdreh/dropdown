@@ -1,0 +1,9 @@
+// Arquivo que de alguma forma me dá autocomplete em Jquery
+{
+    "typeAcquisition": {
+        "include": [
+            "jquery"
+        ]
+    }
+
+}
