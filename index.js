@@ -6,8 +6,7 @@
 
 $(document).ready(function() {
     $('#color1').click(function() {
-        $(".bg").css("display", "none");
-        $(".bg2").css("display", "block");
+
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
         $('.bg').css('color', bgColor);
@@ -15,24 +14,21 @@ $(document).ready(function() {
 
 
     $('#color2').click(function() {
-        $(".bg").css("display", "none");
-        $(".bg2").css("display", "block");
+
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
         $('.bg').css('color', bgColor);
     });
 
     $('#color3').click(function() {
-        $(".bg").css("display", "none");
-        $(".bg2").css("display", "block");
+
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
         $('.bg').css('color', bgColor);
     });
 
     $('#color4').click(function() {
-        $(".bg").css("display", "none");
-        $(".bg2").css("display", "block");
+
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
         $('.bg').css('color', bgColor);
