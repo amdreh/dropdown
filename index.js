@@ -9,7 +9,6 @@ $(document).ready(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
-        $('.bg').css('color', bgColor);
     });
 
 
@@ -17,21 +16,18 @@ $(document).ready(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
-        $('.bg').css('color', bgColor);
     });
 
     $('#color3').click(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
-        $('.bg').css('color', bgColor);
     });
 
     $('#color4').click(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
-        $('.bg').css('color', bgColor);
     });
 
 

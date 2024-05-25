@@ -15,6 +15,25 @@ body {
     overflow: hidden; 
 }
 
+@media (max-width: 600px) {
+    .container h1 {
+        font-size: 14vw;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container h1 {
+        font-size: 12vw;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container h1 {
+        font-size: 126px;
+        
+    }
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -22,7 +41,7 @@ body {
     
 }
 
-.bg2 {
+.bg {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -32,11 +51,6 @@ body {
     color: #a62988;
     max-width: 700px;
     
-}
-
-.bg2 h1 {
-    max-width: 700px;
-
 }
 
 .cont {
