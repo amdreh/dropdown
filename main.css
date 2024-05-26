@@ -11,13 +11,14 @@ html, body {
     height: 100vh;
 }
 
-body {
-    overflow: hidden; 
-}
+
 
 @media (max-width: 600px) {
     .container h1 {
         font-size: 14vw;
+    }
+    body {
+        overflow: hidden; 
     }
 }
 
@@ -58,6 +59,10 @@ body {
 
 }
 
+documento body {
+    background-color: rgb(255, 255, 255);
+}
+
 .container h1 { 
     
     font-family: Teachers;
@@ -77,10 +82,10 @@ ul li:hover {
 
 #color1 {
     background-color: rgb(255,247,234);
-    color: rgb(255,247,234);
+    color: #fff7ea;
 }
 #color2 {
-    background-color: rgb(244,198,86);
+    background-color: #f4c656;
     color: rgb(244,198,86);
 }
 #color3 {
@@ -104,3 +109,4 @@ ul li:hover {
 .btn-link {
     opacity: 1;
 }
+
