@@ -55,15 +55,6 @@ html, body {
     
 }
 
-.cont {
-    margin-bottom: 3vh;
-
-}
-
-documento body {
-    background-color: rgb(255, 255, 255);
-}
-
 .container h1 { 
     
     font-family: Teachers;
@@ -111,3 +102,5 @@ ul li:hover {
     opacity: 1;
 }
 
+.dropdown-menu {
+}
