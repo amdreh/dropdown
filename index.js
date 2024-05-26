@@ -12,6 +12,7 @@ $(document).ready(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
+        cont=1;
     });
 
 
@@ -19,18 +20,21 @@ $(document).ready(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
+        cont=2;
     });
 
     $('#color3').click(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
+        cont=3;
     });
 
     $('#color4').click(function() {
 
         var bgColor = $(this).text().trim();
         $('.container-fluid').css('background-color', bgColor);
+        cont=4;
     });
 
     function getBackgroundColor(element) {
